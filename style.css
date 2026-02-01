@@ -20,9 +20,16 @@ body {
 .btn {
   display: inline-block;
   margin-top: 15px;
-  padding: 10px 20px;
-  background: #4caf50;
+  padding: 12px 22px;
+  background: #5865F2; /* Discord Purple */
   color: white;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.btn:hover {
+  background: #4752c4; /* สีเข้มขึ้นตอนเอาเมาส์ชี้ */
+  transform: scale(1.05);
 }
