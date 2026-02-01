@@ -2,28 +2,40 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8">
-  <title>Minecraft Server</title>
+  <title>kingdomofblood Minecraft Server</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="card">
-  <h1> Kingdomofblood Server Minecraft</h1>
-  <p><b>IP:</b> kingdomofblood.mc.in.th</p>
-  <p><b>Version:</b> 1.21.132</p>
-  <p><b>Status:</b> 🟢 Online</p>
+  <div class="card">
+    <h1>kingdomofblood Minecraft Server</h1>
+    <p class="subtitle">Creative • Buliding • Friendly</p>
 
-  <h2>กฎเซิฟ</h2>
-  <ul>
-    <li>❌ ห้ามโกง</li>
-    <li>❌ ห้ามด่า</li>
-    <li>✅ เล่นสุภาพ</li>
-  </ul>
+    <div class="info">
+      <p><b>IP:</b> kingdomofblood.mc.in.th</p>
+      <button class="copy-btn" onclick="copyIP()">📋 Copy IP</button>
+      <p><b>Version:</b> 1.21.132</p>
+      <p><b>Status:</b> <span class="online">🟢 Online</span></p>
+    </div>
 
-  <a class="btn" href="https://discord.gg/Fb3ZQ5R8Wv" target="_blank">
-    เข้า Discord
-  </a>
-</div>
+    <h2>📜 กฎเซิฟ</h2>
+    <ul>
+      <li>❌ ห้ามโกง</li>
+      <li>❌ ห้ามด่าผู้เล่น</li>
+      <li>✅ เล่นสุภาพ</li>
+    </ul>
+
+    <a class="btn" href="https://discord.gg/Fb3ZQ5R8Wv" target="_blank">
+       เข้า Discord Server
+    </a>
+  </div>
+
+<script>
+function copyIP() {
+  navigator.clipboard.writeText("kingdomofblood.mc.in.th");
+  alert("คัดลอก IP แล้ว!");
+}
+</script>
 
 </body>
 </html>
