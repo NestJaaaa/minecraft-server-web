@@ -13,23 +13,83 @@ body {
   background: rgba(0,0,0,0.7);
   padding: 30px;
   border-radius: 16px;
-  width: 320px;
+  width: 320px;body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #1b1b1b, #2e7d32);
+  font-family: Arial, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: rgba(0,0,0,0.75);
+  padding: 30px;
+  border-radius: 18px;
+  width: 340px;
   text-align: center;
+  box-shadow: 0 0 25px rgba(0,0,0,0.6);
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #a5d6a7;
+  margin-bottom: 20px;
+}
+
+.info p {
+  margin: 6px 0;
+}
+
+.online {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+ul li {
+  margin: 6px 0;
 }
 
 .btn {
   display: inline-block;
   margin-top: 15px;
   padding: 12px 22px;
-  background: #5865F2; /* Discord Purple */
+  background: #5865F2;
   color: white;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 12px;
   font-weight: bold;
   transition: 0.2s ease;
+  box-shadow: 0 0 12px rgba(88, 101, 242, 0.7);
 }
 
 .btn:hover {
-  background: #4752c4; /* สีเข้มขึ้นตอนเอาเมาส์ชี้ */
-  transform: scale(1.05);
+  background: #4752c4;
+  transform: scale(1.08);
+  box-shadow: 0 0 20px rgba(88, 101, 242, 1);
+}
+
+.copy-btn {
+  margin: 8px 0 12px;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 8px;
+  background: #2e7d32;
+  color: white;
+  cursor: pointer;
+}
+
+.copy-btn:hover {
+  background: #388e3c;
 }
